@@ -1,0 +1,23 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2em; */
+    /* margin: 0.5em; */
+    margin-left: 3em;
+    margin-top: 0.5em;
+    margin-right: 3em;
+}
+.head button{
+    background-color: #4361ee;
+    min-width: 130px;
+    padding: 0.5em;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    min-height: 30px;
+}
+.head button span{
+    float: left;
+}

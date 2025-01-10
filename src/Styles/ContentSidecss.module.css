@@ -1,0 +1,84 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    padding:0.2em;
+    justify-content: space-;
+}
+.button_1{
+  margin-top: 0.5em;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.button_1::-webkit-scrollbar {
+    width: 1px; 
+  }
+  
+  .button_1::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+  }
+  
+  .button_1::-webkit-scrollbar-track{
+    background: transparent; 
+  }
+.button_1 button{
+    cursor: pointer;
+}
+.button_2 button{
+  min-width: 150px;
+  min-height: 50px;
+  align-content: center;
+  cursor: pointer;
+  padding: 0.5em;
+  font-size: 18px;
+  font-size: bold;
+  color: white;
+  min-width: 170px;
+  outline: none;
+  border: none;
+  border-radius:5px;
+  background-color: #4e6ae8;
+}
+.documentItem{
+  margin-left: 0.2em;
+  padding-bottom: 0.5em;
+}
+.documentItem button{
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 160px;
+  background-color: transparent;
+  color: #4361ee;
+  margin-bottom: 0.2em;
+  position: relative;
+  border: none;
+  padding-bottom: 0.2em;
+}
+.documentItem button:hover{
+  color:  #122c42;
+}
+.active{
+  color: #003566; 
+}
+.active::after{
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 140px;
+  height: 2px;
+  border: none;
+  outline: none;
+  background-color: #4361ee; 
+  border-radius: 2px;
+}
+.iconclose{
+  margin: 0.2em;
+  background-color:  #4361ee;
+  padding:0.3em;
+  color: white;
+  border-radius: 4px;
+}

@@ -1,0 +1,26 @@
+.button_2 button{
+    min-width: 150px;
+    min-height: 50px;
+    align-content: center;
+    cursor: pointer;
+    padding: 0.5em;
+    font-size: 18px;
+    font-size: bold;
+    color: white;
+    min-width: 170px;
+    outline: none;
+    border: none;
+    border-radius:5px;
+    background-color: #4e6ae8;
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    opacity: 0.7;
+}
