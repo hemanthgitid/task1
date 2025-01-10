@@ -30,11 +30,11 @@ const Content = ({ data1,subindex,currentIndex }) => {
         )}
         {
           !data1  && 
-          <p>Empty Document :)</p>
+          <p>Empty Application :)</p>
         }
         {
           data1 &&  data1.length<=0 && 
-          <p>Empty Application :)</p>
+          <p>Empty Document  :)</p>
         }
       </div>
     </div>

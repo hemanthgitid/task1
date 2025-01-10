@@ -17,7 +17,7 @@ const Contentside = ({ handleindex2,handlesidedocument, handleremovedocument, da
             <div key={index} className={Contentsidecss.documentItem}>
               <button
                   key={index}
-                  className={index2==index?Contentsidecss.active:''}
+                  className={index2===index?Contentsidecss.active:''}
                   onClick={()=>{handleindex2(index)}}
               >
                Document_{index}
